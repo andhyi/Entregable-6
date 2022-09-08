@@ -14,7 +14,7 @@ const Header = () => {
     <header className="header">
       <NavLink className='header__logo-navlink' to="/">
         <h1 className="header__logo">e-commerce</h1>
-        <img className="imagen_logo" src="./ecommerce.png" alt="" />
+        {/* <img className="imagen_logo" src="./ecommerce.png" alt="" /> */}
       </NavLink>
       <i onClick={handleHamClick} className="fa-solid fa-bars header__menu-ham"></i>
       <nav ref={navbar} className="header__nav header__nav--close">
